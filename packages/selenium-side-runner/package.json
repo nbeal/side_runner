@@ -1,8 +1,8 @@
 {
-  "name": "selenium-side-runner-16",
-  "version": " 4.0.0",
-  "description": "Run Selenium IDE projects in cli",
-  "repository": "https://github.com/SeleniumHQ/selenium-ide",
+  "name": "selenium-side-runner-node16",
+  "version": "4.0.2",
+  "description": "Fork of side-runner",
+  "repository": "https://github.com/nbeal/side_runner",
   "scripts": {
     "build": "babel -d dist src --ignore=src/__test__",
     "prepublishOnly": "yarn build",
@@ -25,7 +25,7 @@
     "commander": "^8.2.0",
     "glob": "^7.2.0",
     "global-npm": "^0.4.1",
-    "jest-cli": "27.3.0",
+    "jest-cli": "24.7.1",
     "jest-environment-selenium": "2.1.2",
     "js-beautify": "^1.14.0",
     "js-yaml": "^4.1.0",
@@ -33,7 +33,7 @@
     "selenium-webdriver": "4.0.0",
     "selianize": "^3.17.0",
     "semver": "^7.3.5",
-    "winston": "^3.3.3"
+    "winston": "^2.4.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
