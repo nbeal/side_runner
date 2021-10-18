@@ -1,6 +1,6 @@
 {
-  "name": "selenium-side-runner",
-  "version": "4.0.0",
+  "name": "selenium-side-runner-16",
+  "version": " 4.0.0",
   "description": "Run Selenium IDE projects in cli",
   "repository": "https://github.com/SeleniumHQ/selenium-ide",
   "scripts": {
@@ -12,7 +12,7 @@
     "selenium-side-runner": "dist/index.js"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=16.10.0"
   },
   "keywords": [
     "selenium",
